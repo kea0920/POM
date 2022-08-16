@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  POM
 //
-//  Created by wenjuan Qiu on 8/16/22.
+//  Created by an qi ke on 8/16/22.
 //
 
 import UIKit
