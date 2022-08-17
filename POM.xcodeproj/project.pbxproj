@@ -14,6 +14,11 @@
 		2EB270C428AC194700E2BA12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EB270C328AC194700E2BA12 /* Assets.xcassets */; };
 		2EB270C728AC194700E2BA12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EB270C528AC194700E2BA12 /* LaunchScreen.storyboard */; };
 		2EB270CF28AD423000E2BA12 /* HomepageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB270CE28AD422F00E2BA12 /* HomepageViewController.swift */; };
+		2EB270D128AD468D00E2BA12 /* JournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB270D028AD468D00E2BA12 /* JournalViewController.swift */; };
+		2EB270D328AD482B00E2BA12 /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB270D228AD482A00E2BA12 /* ToDoTableViewController.swift */; };
+		2EB270D828AD492300E2BA12 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB270D728AD492300E2BA12 /* QuizViewController.swift */; };
+		2EB270DA28AD494600E2BA12 /* ResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB270D928AD494600E2BA12 /* ResourcesViewController.swift */; };
+		2EB270DC28AD4AEB00E2BA12 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB270DB28AD4AEB00E2BA12 /* ToDo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		2EB270C628AC194700E2BA12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2EB270C828AC194700E2BA12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2EB270CE28AD422F00E2BA12 /* HomepageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepageViewController.swift; sourceTree = "<group>"; };
+		2EB270D028AD468D00E2BA12 /* JournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalViewController.swift; sourceTree = "<group>"; };
+		2EB270D228AD482A00E2BA12 /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
+		2EB270D728AD492300E2BA12 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		2EB270D928AD494600E2BA12 /* ResourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesViewController.swift; sourceTree = "<group>"; };
+		2EB270DB28AD4AEB00E2BA12 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +71,10 @@
 				2EB270B728AC193C00E2BA12 /* AppDelegate.swift */,
 				2EB270B928AC193C00E2BA12 /* SceneDelegate.swift */,
 				2EB270CE28AD422F00E2BA12 /* HomepageViewController.swift */,
+				2EB270D028AD468D00E2BA12 /* JournalViewController.swift */,
+				2EB270D728AD492300E2BA12 /* QuizViewController.swift */,
+				2EB270D928AD494600E2BA12 /* ResourcesViewController.swift */,
+				2EB270DD28AD4B4600E2BA12 /* ToDo List */,
 				2EB270BD28AC193C00E2BA12 /* Main.storyboard */,
 				2EB270C328AC194700E2BA12 /* Assets.xcassets */,
 				2EB270C528AC194700E2BA12 /* LaunchScreen.storyboard */,
@@ -68,6 +82,15 @@
 				2EB270C028AC193C00E2BA12 /* POM.xcdatamodeld */,
 			);
 			path = POM;
+			sourceTree = "<group>";
+		};
+		2EB270DD28AD4B4600E2BA12 /* ToDo List */ = {
+			isa = PBXGroup;
+			children = (
+				2EB270D228AD482A00E2BA12 /* ToDoTableViewController.swift */,
+				2EB270DB28AD4AEB00E2BA12 /* ToDo.swift */,
+			);
+			path = "ToDo List";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,10 +164,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EB270DC28AD4AEB00E2BA12 /* ToDo.swift in Sources */,
 				2EB270C228AC193C00E2BA12 /* POM.xcdatamodeld in Sources */,
+				2EB270D828AD492300E2BA12 /* QuizViewController.swift in Sources */,
+				2EB270DA28AD494600E2BA12 /* ResourcesViewController.swift in Sources */,
+				2EB270D328AD482B00E2BA12 /* ToDoTableViewController.swift in Sources */,
 				2EB270B828AC193C00E2BA12 /* AppDelegate.swift in Sources */,
 				2EB270BA28AC193C00E2BA12 /* SceneDelegate.swift in Sources */,
 				2EB270CF28AD423000E2BA12 /* HomepageViewController.swift in Sources */,
+				2EB270D128AD468D00E2BA12 /* JournalViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
