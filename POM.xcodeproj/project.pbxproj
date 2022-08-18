@@ -17,6 +17,9 @@
 		2EB270E128AE858000E2BA12 /* PieceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB270E028AE858000E2BA12 /* PieceViewController.swift */; };
 		2EB270E328AE859D00E2BA12 /* JournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB270E228AE859D00E2BA12 /* JournalViewController.swift */; };
 		2EB270E528AE87F400E2BA12 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB270E428AE87F400E2BA12 /* HomeViewController.swift */; };
+		BD4958CC28AED254008D7FF0 /* ToDoListItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4958CA28AED254008D7FF0 /* ToDoListItem+CoreDataClass.swift */; };
+		BD4958CD28AED254008D7FF0 /* ToDoListItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4958CB28AED254008D7FF0 /* ToDoListItem+CoreDataProperties.swift */; };
+		BD4958D028AED361008D7FF0 /* ToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4958CF28AED361008D7FF0 /* ToDoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		2EB270E028AE858000E2BA12 /* PieceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieceViewController.swift; sourceTree = "<group>"; };
 		2EB270E228AE859D00E2BA12 /* JournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalViewController.swift; sourceTree = "<group>"; };
 		2EB270E428AE87F400E2BA12 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		BD4958CA28AED254008D7FF0 /* ToDoListItem+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ToDoListItem+CoreDataClass.swift"; sourceTree = "<group>"; };
+		BD4958CB28AED254008D7FF0 /* ToDoListItem+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ToDoListItem+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		BD4958CF28AED361008D7FF0 /* ToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,12 +70,14 @@
 		2EB270B628AC193C00E2BA12 /* POM */ = {
 			isa = PBXGroup;
 			children = (
+				BD4958CE28AED2CB008D7FF0 /* ToDoListItem */,
 				2EB270B728AC193C00E2BA12 /* AppDelegate.swift */,
 				2EB270B928AC193C00E2BA12 /* SceneDelegate.swift */,
 				2EB270DE28AE84D300E2BA12 /* TabBarViewController.swift */,
 				2EB270E428AE87F400E2BA12 /* HomeViewController.swift */,
 				2EB270E228AE859D00E2BA12 /* JournalViewController.swift */,
 				2EB270E028AE858000E2BA12 /* PieceViewController.swift */,
+				BD4958CF28AED361008D7FF0 /* ToDoViewController.swift */,
 				2EB270BD28AC193C00E2BA12 /* Main.storyboard */,
 				2EB270C328AC194700E2BA12 /* Assets.xcassets */,
 				2EB270C528AC194700E2BA12 /* LaunchScreen.storyboard */,
@@ -77,6 +85,15 @@
 				2EB270C028AC193C00E2BA12 /* POM.xcdatamodeld */,
 			);
 			path = POM;
+			sourceTree = "<group>";
+		};
+		BD4958CE28AED2CB008D7FF0 /* ToDoListItem */ = {
+			isa = PBXGroup;
+			children = (
+				BD4958CB28AED254008D7FF0 /* ToDoListItem+CoreDataProperties.swift */,
+				BD4958CA28AED254008D7FF0 /* ToDoListItem+CoreDataClass.swift */,
+			);
+			path = ToDoListItem;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +167,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD4958D028AED361008D7FF0 /* ToDoViewController.swift in Sources */,
+				BD4958CC28AED254008D7FF0 /* ToDoListItem+CoreDataClass.swift in Sources */,
+				BD4958CD28AED254008D7FF0 /* ToDoListItem+CoreDataProperties.swift in Sources */,
 				2EB270DF28AE84D300E2BA12 /* TabBarViewController.swift in Sources */,
 				2EB270C228AC193C00E2BA12 /* POM.xcdatamodeld in Sources */,
 				2EB270B828AC193C00E2BA12 /* AppDelegate.swift in Sources */,
