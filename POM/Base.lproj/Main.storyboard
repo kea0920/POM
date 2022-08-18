@@ -32,7 +32,7 @@
         <scene sceneID="IT4-wf-wjg">
             <objects>
                 <navigationController id="Y7Q-ym-YWw" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Home" image="home" selectedImage="home" id="91I-lY-hq6"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="home-icon" selectedImage="home-icon" id="91I-lY-hq6"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="3V5-eN-HMg">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -102,7 +102,7 @@
         <scene sceneID="McO-vW-cEs">
             <objects>
                 <navigationController id="csU-Yq-VmQ" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="To-Do List" image="todo" selectedImage="todo" id="eWV-CF-HE3"/>
+                    <tabBarItem key="tabBarItem" title="To-Do List" image="todo-list-icon" selectedImage="todo-list-icon" id="eWV-CF-HE3"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="2h3-vZ-0wE">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -136,7 +136,7 @@
         <scene sceneID="L9W-xZ-ySB">
             <objects>
                 <navigationController id="KEa-Ol-gXQ" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Journal" image="journal" selectedImage="journal" id="f13-KR-zAz"/>
+                    <tabBarItem key="tabBarItem" title="Journal" image="journal-icon" selectedImage="journal-icon" id="f13-KR-zAz"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="xm1-rP-iw9">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -169,7 +169,7 @@
         <scene sceneID="dgm-f0-eHi">
             <objects>
                 <navigationController id="12t-0k-DMG" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="My Piece" id="nxL-4w-EOH"/>
+                    <tabBarItem key="tabBarItem" title="My Piece" image="piece-icon" selectedImage="piece-icon" springLoaded="YES" id="nxL-4w-EOH"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="G4B-FI-dEM">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -201,9 +201,10 @@
     </scenes>
     <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
     <resources>
-        <image name="home" width="30" height="30"/>
-        <image name="journal" width="30" height="30"/>
-        <image name="todo" width="30" height="30"/>
+        <image name="home-icon" width="30" height="30"/>
+        <image name="journal-icon" width="30" height="30"/>
+        <image name="piece-icon" width="30" height="30"/>
+        <image name="todo-list-icon" width="30" height="30"/>
         <systemColor name="systemCyanColor">
             <color red="0.19607843137254902" green="0.67843137254901964" blue="0.90196078431372551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
