@@ -1,5 +1,5 @@
 //
-//  JournalViewController.swift
+//  TabBarViewController.swift
 //  POM
 //
 //  Created by anqi ke on 8/18/22.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class JournalViewController: UIViewController {
+class TabBarViewController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -13,6 +13,10 @@
 		2EB270C228AC193C00E2BA12 /* POM.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2EB270C028AC193C00E2BA12 /* POM.xcdatamodeld */; };
 		2EB270C428AC194700E2BA12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EB270C328AC194700E2BA12 /* Assets.xcassets */; };
 		2EB270C728AC194700E2BA12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EB270C528AC194700E2BA12 /* LaunchScreen.storyboard */; };
+		2EB270DF28AE84D300E2BA12 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB270DE28AE84D300E2BA12 /* TabBarViewController.swift */; };
+		2EB270E128AE858000E2BA12 /* PieceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB270E028AE858000E2BA12 /* PieceViewController.swift */; };
+		2EB270E328AE859D00E2BA12 /* JournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB270E228AE859D00E2BA12 /* JournalViewController.swift */; };
+		2EB270E528AE87F400E2BA12 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB270E428AE87F400E2BA12 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		2EB270C328AC194700E2BA12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2EB270C628AC194700E2BA12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2EB270C828AC194700E2BA12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EB270DE28AE84D300E2BA12 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		2EB270E028AE858000E2BA12 /* PieceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieceViewController.swift; sourceTree = "<group>"; };
+		2EB270E228AE859D00E2BA12 /* JournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalViewController.swift; sourceTree = "<group>"; };
+		2EB270E428AE87F400E2BA12 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 			children = (
 				2EB270B728AC193C00E2BA12 /* AppDelegate.swift */,
 				2EB270B928AC193C00E2BA12 /* SceneDelegate.swift */,
+				2EB270DE28AE84D300E2BA12 /* TabBarViewController.swift */,
+				2EB270E428AE87F400E2BA12 /* HomeViewController.swift */,
+				2EB270E228AE859D00E2BA12 /* JournalViewController.swift */,
+				2EB270E028AE858000E2BA12 /* PieceViewController.swift */,
 				2EB270BD28AC193C00E2BA12 /* Main.storyboard */,
 				2EB270C328AC194700E2BA12 /* Assets.xcassets */,
 				2EB270C528AC194700E2BA12 /* LaunchScreen.storyboard */,
@@ -138,9 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EB270DF28AE84D300E2BA12 /* TabBarViewController.swift in Sources */,
 				2EB270C228AC193C00E2BA12 /* POM.xcdatamodeld in Sources */,
 				2EB270B828AC193C00E2BA12 /* AppDelegate.swift in Sources */,
 				2EB270BA28AC193C00E2BA12 /* SceneDelegate.swift in Sources */,
+				2EB270E328AE859D00E2BA12 /* JournalViewController.swift in Sources */,
+				2EB270E528AE87F400E2BA12 /* HomeViewController.swift in Sources */,
+				2EB270E128AE858000E2BA12 /* PieceViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

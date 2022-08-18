@@ -1,5 +1,5 @@
 //
-//  JournalViewController.swift
+//  PieceViewController.swift
 //  POM
 //
 //  Created by anqi ke on 8/18/22.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class JournalViewController: UIViewController {
+class PieceViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

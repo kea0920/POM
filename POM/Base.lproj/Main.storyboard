@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Tab Bar Controller-->
+        <!--Tab Bar View Controller-->
         <scene sceneID="By4-cn-aKx">
             <objects>
-                <tabBarController id="vKx-Jb-Igy" sceneMemberID="viewController">
+                <tabBarController id="vKx-Jb-Igy" customClass="TabBarViewController" customModule="POM" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="s4M-OX-bgS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -32,7 +32,7 @@
         <scene sceneID="IT4-wf-wjg">
             <objects>
                 <navigationController id="Y7Q-ym-YWw" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Home" image="home" id="91I-lY-hq6"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="home" selectedImage="home" id="91I-lY-hq6"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="3V5-eN-HMg">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -43,12 +43,12 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7WX-Tb-ccZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2962" y="108"/>
+            <point key="canvasLocation" x="-1846" y="108"/>
         </scene>
-        <!--View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="Lh4-aI-8YT">
             <objects>
-                <viewController id="KJf-07-tIn" sceneMemberID="viewController">
+                <viewController id="KJf-07-tIn" customClass="HomeViewController" customModule="POM" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DIF-dt-cZb">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -59,11 +59,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mJw-9R-Nhz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2962" y="796"/>
+            <point key="canvasLocation" x="-1846" y="820"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Ugp-sB-229">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lq2-Uj-pWG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="gAG-ZQ-ORe" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UTg-Ry-W3l">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -94,15 +95,14 @@
                     </view>
                     <navigationItem key="navigationItem" id="va8-7t-CGy"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Lq2-Uj-pWG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2136.231884057971" y="795.53571428571422"/>
+            <point key="canvasLocation" x="-839" y="820"/>
         </scene>
-        <!--To do List-->
+        <!--To-Do List-->
         <scene sceneID="McO-vW-cEs">
             <objects>
                 <navigationController id="csU-Yq-VmQ" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="To do List" image="todo" id="eWV-CF-HE3"/>
+                    <tabBarItem key="tabBarItem" title="To-Do List" image="todo" selectedImage="todo" id="eWV-CF-HE3"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="2h3-vZ-0wE">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -113,11 +113,12 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uad-bH-a4Q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2162" y="109"/>
+            <point key="canvasLocation" x="-838" y="108"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="RCA-S8-jFs">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cfa-91-fkW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="G6n-nx-xYi" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="khP-Hy-FKN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -128,15 +129,14 @@
                     </view>
                     <navigationItem key="navigationItem" id="ujB-zW-OF7"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="cfa-91-fkW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1287" y="796"/>
+            <point key="canvasLocation" x="146" y="820"/>
         </scene>
-        <!--journal-->
+        <!--Journal-->
         <scene sceneID="L9W-xZ-ySB">
             <objects>
                 <navigationController id="KEa-Ol-gXQ" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="journal" image="journal" id="f13-KR-zAz"/>
+                    <tabBarItem key="tabBarItem" title="Journal" image="journal" selectedImage="journal" id="f13-KR-zAz"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="xm1-rP-iw9">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -147,12 +147,12 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dX1-wf-MPa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3804" y="108"/>
+            <point key="canvasLocation" x="-2899" y="108"/>
         </scene>
-        <!--View Controller-->
+        <!--Journal View Controller-->
         <scene sceneID="DQn-rJ-kM5">
             <objects>
-                <viewController id="IRa-zV-JiV" sceneMemberID="viewController">
+                <viewController id="IRa-zV-JiV" customClass="JournalViewController" customModule="POM" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DkR-wN-33E">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -163,13 +163,13 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GZf-gF-tUn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3891" y="796"/>
+            <point key="canvasLocation" x="-2900" y="820"/>
         </scene>
-        <!--Item-->
+        <!--My Piece-->
         <scene sceneID="dgm-f0-eHi">
             <objects>
                 <navigationController id="12t-0k-DMG" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="nxL-4w-EOH"/>
+                    <tabBarItem key="tabBarItem" title="My Piece" id="nxL-4w-EOH"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="G4B-FI-dEM">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -180,12 +180,12 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Uz-Vz-Jpo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-4548" y="108"/>
+            <point key="canvasLocation" x="-3932" y="108"/>
         </scene>
-        <!--View Controller-->
+        <!--Piece View Controller-->
         <scene sceneID="tLq-eM-Itj">
             <objects>
-                <viewController id="9cr-Gr-Gss" sceneMemberID="viewController">
+                <viewController id="9cr-Gr-Gss" customClass="PieceViewController" customModule="POM" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ynd-L5-Uhc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -196,7 +196,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gJb-WD-Hke" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-4630" y="796"/>
+            <point key="canvasLocation" x="-3933" y="820"/>
         </scene>
     </scenes>
     <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
