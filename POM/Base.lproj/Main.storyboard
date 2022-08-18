@@ -94,29 +94,8 @@
                     <view key="view" contentMode="scaleToFill" id="UTg-Ry-W3l">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gWB-1N-fnY">
-                                <rect key="frame" x="107" y="423" width="200" height="50"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="200" id="bbb-dW-Vpm"/>
-                                    <constraint firstAttribute="height" constant="50" id="x3q-y8-Rss"/>
-                                </constraints>
-                                <color key="tintColor" red="0.96470588450000005" green="0.96470588450000005" blue="0.96078431610000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Next">
-                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="37"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="G6n-nx-xYi" kind="show" id="uF5-Nf-E6X"/>
-                                </connections>
-                            </button>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="tg7-UT-iZp"/>
                         <color key="backgroundColor" systemColor="systemCyanColor"/>
-                        <constraints>
-                            <constraint firstItem="gWB-1N-fnY" firstAttribute="centerX" secondItem="UTg-Ry-W3l" secondAttribute="centerX" id="1xJ-wp-X39"/>
-                            <constraint firstItem="gWB-1N-fnY" firstAttribute="centerY" secondItem="UTg-Ry-W3l" secondAttribute="centerY" id="q2b-ua-DUI"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="va8-7t-CGy"/>
                 </viewController>
