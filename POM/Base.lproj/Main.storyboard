@@ -65,11 +65,11 @@
                                     <action selector="quotesButton:" destination="KJf-07-tIn" eventType="touchUpInside" id="trh-Oj-mPX"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="your daily quote" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g3x-Jk-anP">
-                                <rect key="frame" x="41" y="662" width="333" height="107"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="your daily quote" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g3x-Jk-anP">
+                                <rect key="frame" x="41" y="662" width="333" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.34729248289999998" green="0.3902459741" blue="0.55296206469999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <fontDescription key="fontDescription" name="Avenir-MediumOblique" family="Avenir" pointSize="15"/>
+                                <fontDescription key="fontDescription" name="Avenir-MediumOblique" family="Avenir" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -79,6 +79,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="xbw-ZB-l31"/>
                     <connections>
+                        <outlet property="quotesButtonVar" destination="ZJJ-YN-g3M" id="2As-ac-6gn"/>
                         <outlet property="quotesLabel" destination="g3x-Jk-anP" id="GTf-ue-P7e"/>
                     </connections>
                 </viewController>
@@ -89,7 +90,6 @@
         <!--View Controller-->
         <scene sceneID="Ugp-sB-229">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Lq2-Uj-pWG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="gAG-ZQ-ORe" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UTg-Ry-W3l">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -120,6 +120,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="va8-7t-CGy"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lq2-Uj-pWG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-839" y="820"/>
         </scene>
@@ -143,7 +144,6 @@
         <!--View Controller-->
         <scene sceneID="RCA-S8-jFs">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="cfa-91-fkW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="G6n-nx-xYi" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="khP-Hy-FKN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -154,6 +154,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="ujB-zW-OF7"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cfa-91-fkW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="146" y="820"/>
         </scene>

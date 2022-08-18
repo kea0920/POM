@@ -10,11 +10,10 @@ import UIKit
 class HomeViewController: UIViewController {
 
     @IBOutlet weak var quotesLabel: UILabel!
+    @IBOutlet weak var quotesButtonVar: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
     
     let quotes = [
@@ -42,7 +41,10 @@ class HomeViewController: UIViewController {
             
     @IBAction func quotesButton(_ sender: Any) {
         quotesLabel.text = quotes[Int.random(in: 0..<countQuotes())]
+        quotesButtonVar.isUserInteractionEnabled = false
     }
+
+    
     
     /*
     // MARK: - Navigation
