@@ -662,7 +662,7 @@
                                 <buttonConfiguration key="configuration" style="filled" title="Stay home; you don't want to stress" cornerStyle="capsule">
                                     <fontDescription key="titleFontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" red="0.4893689752" green="0.58606642480000004" blue="0.77649635080000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.7521294355" green="0.68281042579999995" blue="0.63528496030000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="x6m-uH-CH7" kind="presentation" id="V9n-v7-0v6"/>
@@ -675,7 +675,7 @@
                                 <buttonConfiguration key="configuration" style="filled" title="Sneak out, they'll never know!" cornerStyle="capsule">
                                     <fontDescription key="titleFontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" red="0.4893689752" green="0.58606642480000004" blue="0.77649635080000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.7521294355" green="0.68281042579999995" blue="0.63528496030000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="x6m-uH-CH7" kind="presentation" id="uWm-5c-hDv"/>
@@ -688,7 +688,7 @@
                                 <buttonConfiguration key="configuration" style="filled" title="Convince them and whine! If you persist, they'll allow it" cornerStyle="capsule">
                                     <fontDescription key="titleFontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" red="0.4893689752" green="0.58606642480000004" blue="0.77649635080000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.7521294355" green="0.68281042579999995" blue="0.63528496030000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="x6m-uH-CH7" kind="presentation" id="h9L-Kw-K3t"/>
@@ -701,7 +701,7 @@
                                 <buttonConfiguration key="configuration" style="filled" title="Obey without a question; they know what's best" cornerStyle="capsule">
                                     <fontDescription key="titleFontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" red="0.4893689752" green="0.58606642480000004" blue="0.77649635080000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.7521294355" green="0.68281042579999995" blue="0.63528496030000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="x6m-uH-CH7" kind="presentation" id="a5Y-zx-jbP"/>
@@ -738,7 +738,7 @@
                                 <buttonConfiguration key="configuration" style="filled" title="Split up desired tasks" cornerStyle="capsule">
                                     <fontDescription key="titleFontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" red="0.4893689752" green="0.58606642480000004" blue="0.77649635080000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.7521294355" green="0.68281042579999995" blue="0.63528496030000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="QoR-aK-xNU" kind="presentation" id="i6S-bL-8Of"/>
@@ -751,7 +751,7 @@
                                 <buttonConfiguration key="configuration" style="filled" title="Do most of the research and writing; let others customize it" cornerStyle="capsule">
                                     <fontDescription key="titleFontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" red="0.4893689752" green="0.58606642480000004" blue="0.77649635080000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.7521294355" green="0.68281042579999995" blue="0.63528496030000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="QoR-aK-xNU" kind="presentation" id="9uc-1r-aLR"/>
@@ -764,7 +764,7 @@
                                 <buttonConfiguration key="configuration" style="filled" title="Complete your assigned tasks" cornerStyle="capsule">
                                     <fontDescription key="titleFontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" red="0.4893689752" green="0.58606642480000004" blue="0.77649635080000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.7521294355" green="0.68281042579999995" blue="0.63528496030000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="QoR-aK-xNU" kind="presentation" id="2Nf-aQ-4ui"/>
@@ -777,7 +777,7 @@
                                 <buttonConfiguration key="configuration" style="filled" title="Coordinate group meetings" cornerStyle="capsule">
                                     <fontDescription key="titleFontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" red="0.4893689752" green="0.58606642480000004" blue="0.77649635080000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.7521294355" green="0.68281042579999995" blue="0.63528496030000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="QoR-aK-xNU" kind="presentation" id="c6S-3w-eaq"/>
@@ -814,7 +814,7 @@
                                 <buttonConfiguration key="configuration" style="filled" title="There is none. You just choose the newest drink the cafe has to offer!" cornerStyle="capsule">
                                     <fontDescription key="titleFontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" red="0.4893689752" green="0.58606642480000004" blue="0.77649635080000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.7521294355" green="0.68281042579999995" blue="0.63528496030000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="NW6-oc-iqG" kind="presentation" id="RfK-Kl-MHO"/>
@@ -827,7 +827,7 @@
                                 <buttonConfiguration key="configuration" style="filled" title="You ask your friends what they would like" cornerStyle="capsule">
                                     <fontDescription key="titleFontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" red="0.4893689752" green="0.58606642480000004" blue="0.77649635080000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.7521294355" green="0.68281042579999995" blue="0.63528496030000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="NW6-oc-iqG" kind="presentation" id="eUR-JU-hl5"/>
@@ -840,7 +840,7 @@
                                 <buttonConfiguration key="configuration" style="filled" title="You just grab an energy drink" cornerStyle="capsule">
                                     <fontDescription key="titleFontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" red="0.4893689752" green="0.58606642480000004" blue="0.77649635080000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.7521294355" green="0.68281042579999995" blue="0.63528496030000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="NW6-oc-iqG" kind="presentation" id="cZG-h1-gNP"/>
@@ -853,7 +853,7 @@
                                 <buttonConfiguration key="configuration" style="filled" title="You ask the cashier for a recommendation" cornerStyle="capsule">
                                     <fontDescription key="titleFontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" red="0.4893689752" green="0.58606642480000004" blue="0.77649635080000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.7521294355" green="0.68281042579999995" blue="0.63528496030000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="NW6-oc-iqG" kind="presentation" id="DYN-OH-wec"/>
@@ -890,7 +890,7 @@
                                 <buttonConfiguration key="configuration" style="filled" title="Suck it up and wait another hour" cornerStyle="capsule">
                                     <fontDescription key="titleFontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" red="0.4893689752" green="0.58606642480000004" blue="0.77649635080000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.7521294355" green="0.68281042579999995" blue="0.63528496030000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="IML-Qu-nzD" kind="presentation" id="lS2-51-049"/>
@@ -903,7 +903,7 @@
                                 <buttonConfiguration key="configuration" style="filled" title="Stick with the one served" cornerStyle="capsule">
                                     <fontDescription key="titleFontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" red="0.4893689752" green="0.58606642480000004" blue="0.77649635080000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.7521294355" green="0.68281042579999995" blue="0.63528496030000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="IML-Qu-nzD" kind="presentation" id="Pbc-3S-4fP"/>
@@ -916,7 +916,7 @@
                                 <buttonConfiguration key="configuration" style="filled" title="Speak to the manager and speed up the process" cornerStyle="capsule">
                                     <fontDescription key="titleFontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" red="0.4893689752" green="0.58606642480000004" blue="0.77649635080000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.7521294355" green="0.68281042579999995" blue="0.63528496030000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="IML-Qu-nzD" kind="presentation" id="Lam-fN-chV"/>
@@ -929,7 +929,7 @@
                                 <buttonConfiguration key="configuration" style="filled" title="Dismiss the waitress and go home hungry" cornerStyle="capsule">
                                     <fontDescription key="titleFontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" red="0.4893689752" green="0.58606642480000004" blue="0.77649635080000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.7521294355" green="0.68281042579999995" blue="0.63528496030000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="IML-Qu-nzD" kind="presentation" id="LIg-CY-CDB"/>
@@ -966,7 +966,7 @@
                                 <buttonConfiguration key="configuration" style="filled" title="Jump in without a second thought" cornerStyle="capsule">
                                     <fontDescription key="titleFontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" red="0.4893689752" green="0.58606642480000004" blue="0.77649635080000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.7521294355" green="0.68281042579999995" blue="0.63528496030000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="etD-F5-N3q" kind="presentation" id="o20-uv-ptS"/>
@@ -979,7 +979,7 @@
                                 <buttonConfiguration key="configuration" style="filled" title="Sit by the side and watch your friends dive" cornerStyle="capsule">
                                     <fontDescription key="titleFontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" red="0.4893689752" green="0.58606642480000004" blue="0.77649635080000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.7521294355" green="0.68281042579999995" blue="0.63528496030000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="etD-F5-N3q" kind="presentation" id="Msm-uJ-c4h"/>
@@ -992,7 +992,7 @@
                                 <buttonConfiguration key="configuration" style="filled" title="Ask others how the experience was before diving in yourself" cornerStyle="capsule">
                                     <fontDescription key="titleFontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" red="0.4893689752" green="0.58606642480000004" blue="0.77649635080000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.7521294355" green="0.68281042579999995" blue="0.63528496030000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="etD-F5-N3q" kind="presentation" id="lqw-Ax-f5e"/>
@@ -1005,7 +1005,7 @@
                                 <buttonConfiguration key="configuration" style="filled" title="Consider the pros and cons and decline" cornerStyle="capsule">
                                     <fontDescription key="titleFontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" red="0.4893689752" green="0.58606642480000004" blue="0.77649635080000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.7521294355" green="0.68281042579999995" blue="0.63528496030000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="etD-F5-N3q" kind="presentation" id="s5Y-fD-6i1"/>
@@ -1042,7 +1042,7 @@
                                 <buttonConfiguration key="configuration" style="filled" title="Consult your friends" cornerStyle="capsule">
                                     <fontDescription key="titleFontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" red="0.4893689752" green="0.58606642480000004" blue="0.77649635080000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.7521294355" green="0.68281042579999995" blue="0.63528496030000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="lea-kb-86t" kind="presentation" id="C8f-3K-cjh"/>
@@ -1055,7 +1055,7 @@
                                 <buttonConfiguration key="configuration" style="filled" title="Follow your gut instinct" cornerStyle="capsule">
                                     <fontDescription key="titleFontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" red="0.4893689752" green="0.58606642480000004" blue="0.77649635080000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.7521294355" green="0.68281042579999995" blue="0.63528496030000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="lea-kb-86t" kind="presentation" id="9Qf-vC-pTd"/>
@@ -1068,7 +1068,7 @@
                                 <buttonConfiguration key="configuration" style="filled" title="Make it at the last possible moment" cornerStyle="capsule">
                                     <fontDescription key="titleFontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" red="0.4893689752" green="0.58606642480000004" blue="0.77649635080000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.7521294355" green="0.68281042579999995" blue="0.63528496030000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="lea-kb-86t" kind="presentation" id="WEI-3W-89f"/>
@@ -1081,7 +1081,7 @@
                                 <buttonConfiguration key="configuration" style="filled" title="You contemplate all the possibilities before making your decision" cornerStyle="capsule">
                                     <fontDescription key="titleFontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" red="0.4893689752" green="0.58606642480000004" blue="0.77649635080000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.7521294355" green="0.68281042579999995" blue="0.63528496030000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="lea-kb-86t" kind="presentation" id="1el-9f-pS2"/>
