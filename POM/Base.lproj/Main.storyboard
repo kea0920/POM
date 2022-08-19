@@ -100,8 +100,8 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SBK-uN-NSN">
-                                <rect key="frame" x="57" y="119" width="300" height="300"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image_from_iOS-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="SBK-uN-NSN">
+                                <rect key="frame" x="57" y="155" width="300" height="300"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -360,7 +360,7 @@
                                 <rect key="frame" x="39" y="267" width="150" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" image="music.quarternote.3" catalog="system" title="">
+                                <buttonConfiguration key="configuration" style="filled" image="lofi_indie_50" title="">
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="baseBackgroundColor" red="0.94060862059999995" green="0.90233558420000004" blue="0.86273807290000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
@@ -372,7 +372,7 @@
                                 <rect key="frame" x="225" y="267" width="150" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" image="music.quarternote.3" catalog="system">
+                                <buttonConfiguration key="configuration" style="filled" image="lofi_relax_50">
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="baseBackgroundColor" red="0.89334386590000003" green="0.84763836859999997" blue="0.78430253270000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
@@ -384,7 +384,7 @@
                                 <rect key="frame" x="39" y="633" width="150" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" image="music.quarternote.3" catalog="system">
+                                <buttonConfiguration key="configuration" style="filled" image="rainy_tokyo_50">
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="baseBackgroundColor" red="0.89334386590000003" green="0.84763836859999997" blue="0.78430253270000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
@@ -396,7 +396,7 @@
                                 <rect key="frame" x="225" y="633" width="150" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" image="music.quarternote.3" catalog="system">
+                                <buttonConfiguration key="configuration" style="filled" image="productive_study_2_50">
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="baseBackgroundColor" red="0.80363053080000002" green="0.77659374479999999" blue="0.76470345260000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
@@ -408,7 +408,7 @@
                                 <rect key="frame" x="39" y="449" width="150" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" image="music.quarternote.3" catalog="system">
+                                <buttonConfiguration key="configuration" style="filled" image="lofi_relax_2_50">
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="baseBackgroundColor" red="0.80363053080000002" green="0.77659374479999999" blue="0.76470345260000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
@@ -420,7 +420,7 @@
                                 <rect key="frame" x="225" y="449" width="150" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" image="music.quarternote.3" catalog="system">
+                                <buttonConfiguration key="configuration" style="filled" image="piano_healing_1_50">
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="baseBackgroundColor" red="0.94060862059999995" green="0.90233558420000004" blue="0.86273807290000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
@@ -1389,13 +1389,19 @@
     </inferredMetricsTieBreakers>
     <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
     <resources>
+        <image name="Image_from_iOS-removebg-preview" width="500" height="500"/>
         <image name="arrow.right" catalog="system" width="128" height="98"/>
         <image name="gamecontroller.fill" catalog="system" width="128" height="80"/>
         <image name="globe" catalog="system" width="128" height="121"/>
         <image name="home-icon" width="30" height="30"/>
         <image name="journal-icon" width="30" height="30"/>
-        <image name="music.quarternote.3" catalog="system" width="128" height="103"/>
+        <image name="lofi_indie_50" width="150" height="150"/>
+        <image name="lofi_relax_2_50" width="150" height="150"/>
+        <image name="lofi_relax_50" width="150" height="150"/>
+        <image name="piano_healing_1_50" width="150" height="150"/>
         <image name="piece-icon" width="30" height="30"/>
+        <image name="productive_study_2_50" width="150" height="150"/>
+        <image name="rainy_tokyo_50" width="150" height="150"/>
         <image name="todo-list-icon" width="30" height="30"/>
     </resources>
 </document>
