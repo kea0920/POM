@@ -15,6 +15,7 @@
 		2E29B07128AF4F6300F1B2BF /* QuizQ5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E29B07028AF4F6300F1B2BF /* QuizQ5ViewController.swift */; };
 		2E29B07328AF4F6C00F1B2BF /* QuizQ6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E29B07228AF4F6C00F1B2BF /* QuizQ6ViewController.swift */; };
 		2E29B07528AF4F7900F1B2BF /* QuizQ7ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E29B07428AF4F7900F1B2BF /* QuizQ7ViewController.swift */; };
+		2E97E35428AFEF570011FE80 /* Games&AppsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E97E35328AFEF570011FE80 /* Games&AppsViewController.swift */; };
 		2EAEE25628AFBE2400A5FB24 /* JournalNotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAEE25528AFBE2400A5FB24 /* JournalNotesViewController.swift */; };
 		2EAEE25828AFC9BC00A5FB24 /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAEE25728AFC9BC00A5FB24 /* MusicViewController.swift */; };
 		2EB270B828AC193C00E2BA12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB270B728AC193C00E2BA12 /* AppDelegate.swift */; };
@@ -41,6 +42,7 @@
 		2E29B07028AF4F6300F1B2BF /* QuizQ5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizQ5ViewController.swift; sourceTree = "<group>"; };
 		2E29B07228AF4F6C00F1B2BF /* QuizQ6ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizQ6ViewController.swift; sourceTree = "<group>"; };
 		2E29B07428AF4F7900F1B2BF /* QuizQ7ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizQ7ViewController.swift; sourceTree = "<group>"; };
+		2E97E35328AFEF570011FE80 /* Games&AppsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Games&AppsViewController.swift"; sourceTree = "<group>"; };
 		2EAEE25528AFBE2400A5FB24 /* JournalNotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalNotesViewController.swift; sourceTree = "<group>"; };
 		2EAEE25728AFC9BC00A5FB24 /* MusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
 		2EB270B428AC193C00E2BA12 /* POM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = POM.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,6 +114,7 @@
 				2EB270DE28AE84D300E2BA12 /* TabBarViewController.swift */,
 				2EB270E428AE87F400E2BA12 /* HomeViewController.swift */,
 				2EAEE25728AFC9BC00A5FB24 /* MusicViewController.swift */,
+				2E97E35328AFEF570011FE80 /* Games&AppsViewController.swift */,
 				2EB270E228AE859D00E2BA12 /* JournalViewController.swift */,
 				2EAEE25528AFBE2400A5FB24 /* JournalNotesViewController.swift */,
 				2EB270E028AE858000E2BA12 /* PieceViewController.swift */,
@@ -225,6 +228,7 @@
 				2EB270E328AE859D00E2BA12 /* JournalViewController.swift in Sources */,
 				2EB270E528AE87F400E2BA12 /* HomeViewController.swift in Sources */,
 				2EB270E128AE858000E2BA12 /* PieceViewController.swift in Sources */,
+				2E97E35428AFEF570011FE80 /* Games&AppsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
