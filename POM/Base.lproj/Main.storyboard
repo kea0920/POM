@@ -128,6 +128,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="xm1-rP-iw9">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.48484832639999997" green="0.58648990889999997" blue="0.4498163208" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </navigationBar>
                     <connections>
                         <segue destination="IRa-zV-JiV" kind="relationship" relationship="rootViewController" id="acj-Mc-74U"/>
@@ -159,7 +160,7 @@
                                 <buttonConfiguration key="configuration" style="filled" title="generate prompt">
                                     <fontDescription key="titleFontDescription" name="HiraMinProN-W6" family="Hiragino Mincho ProN" pointSize="15"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" red="0.4893689752" green="0.58606642480000004" blue="0.77649635080000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.48484832639999997" green="0.58648990889999997" blue="0.4498163208" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="lifePromptsButton:" destination="IRa-zV-JiV" eventType="touchUpInside" id="BQa-uT-dWh"/>
@@ -178,8 +179,8 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="generate prompt">
                                     <fontDescription key="titleFontDescription" name="HiraMinProN-W6" family="Hiragino Mincho ProN" pointSize="15"/>
-                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.48484832639999997" green="0.58648990889999997" blue="0.4498163208" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="miscPromptsButton:" destination="IRa-zV-JiV" eventType="touchUpInside" id="C1T-VG-lFV"/>
@@ -199,7 +200,7 @@
                                 <buttonConfiguration key="configuration" style="filled" title="generate prompt">
                                     <fontDescription key="titleFontDescription" name="HiraMinProN-W6" family="Hiragino Mincho ProN" pointSize="15"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" red="0.34317231180000002" green="0.48178523779999999" blue="0.53334277870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.48484832639999997" green="0.58648990889999997" blue="0.4498163208" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="seriousPromptsButton:" destination="IRa-zV-JiV" eventType="touchUpInside" id="emP-Uk-Rok"/>
@@ -207,7 +208,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="wCz-fI-kx9"/>
-                        <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                        <color key="backgroundColor" red="0.65769622989999998" green="0.79557292660000001" blue="0.61017535219999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="XcJ-HD-nLT"/>
                     <connections>
@@ -260,9 +261,6 @@
         <image name="journal-icon" width="30" height="30"/>
         <image name="piece-icon" width="30" height="30"/>
         <image name="todo-list-icon" width="30" height="30"/>
-        <systemColor name="systemPurpleColor">
-            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
