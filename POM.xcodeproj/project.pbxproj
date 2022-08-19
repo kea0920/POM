@@ -26,6 +26,7 @@
 		2EB270E328AE859D00E2BA12 /* JournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB270E228AE859D00E2BA12 /* JournalViewController.swift */; };
 		2EB270E528AE87F400E2BA12 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB270E428AE87F400E2BA12 /* HomeViewController.swift */; };
 		2EB270E728AED68E00E2BA12 /* ToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB270E628AED68D00E2BA12 /* ToDoViewController.swift */; };
+		BD17308F28AF6A0B0029A811 /* JournalNotesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD17308E28AF6A0B0029A811 /* JournalNotesController.swift */; };
 		BD4958CC28AED254008D7FF0 /* ToDoListItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4958CA28AED254008D7FF0 /* ToDoListItem+CoreDataClass.swift */; };
 		BD4958CD28AED254008D7FF0 /* ToDoListItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4958CB28AED254008D7FF0 /* ToDoListItem+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
@@ -52,6 +53,7 @@
 		2EB270E228AE859D00E2BA12 /* JournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalViewController.swift; sourceTree = "<group>"; };
 		2EB270E428AE87F400E2BA12 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		2EB270E628AED68D00E2BA12 /* ToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoViewController.swift; sourceTree = "<group>"; };
+		BD17308E28AF6A0B0029A811 /* JournalNotesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalNotesController.swift; sourceTree = "<group>"; };
 		BD4958CA28AED254008D7FF0 /* ToDoListItem+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ToDoListItem+CoreDataClass.swift"; sourceTree = "<group>"; };
 		BD4958CB28AED254008D7FF0 /* ToDoListItem+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ToDoListItem+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -108,6 +110,7 @@
 				2EB270DE28AE84D300E2BA12 /* TabBarViewController.swift */,
 				2EB270E428AE87F400E2BA12 /* HomeViewController.swift */,
 				2EB270E228AE859D00E2BA12 /* JournalViewController.swift */,
+				BD17308E28AF6A0B0029A811 /* JournalNotesController.swift */,
 				2EB270E028AE858000E2BA12 /* PieceViewController.swift */,
 				2EB270E628AED68D00E2BA12 /* ToDoViewController.swift */,
 				2EB270BD28AC193C00E2BA12 /* Main.storyboard */,
@@ -211,6 +214,7 @@
 				2E29B06B28AF4F3B00F1B2BF /* QuizQ2ViewController.swift in Sources */,
 				2E29B06F28AF4F5600F1B2BF /* QuizQ4ViewController.swift in Sources */,
 				2E29B07528AF4F7900F1B2BF /* QuizQ7ViewController.swift in Sources */,
+				BD17308F28AF6A0B0029A811 /* JournalNotesController.swift in Sources */,
 				2E29B06928AF4F2B00F1B2BF /* QuizQ1ViewController.swift in Sources */,
 				2E29B06728AF4F1C00F1B2BF /* QuizResultViewController.swift in Sources */,
 				2E29B07328AF4F6C00F1B2BF /* QuizQ6ViewController.swift in Sources */,

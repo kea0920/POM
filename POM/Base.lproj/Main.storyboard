@@ -15,7 +15,7 @@
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="s4M-OX-bgS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" red="0.65769622987678444" green="0.79557292660077417" blue="0.61017535223799846" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.62352943419999995" green="0.5647059083" blue="0.52941179279999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </tabBar>
                     <connections>
                         <segue destination="Y7Q-ym-YWw" kind="relationship" relationship="viewControllers" id="sHc-nQ-Bp9"/>
@@ -59,23 +59,23 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="click for your daily quote!">
                                     <fontDescription key="titleFontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="15"/>
-                                    <color key="baseBackgroundColor" red="0.34729248289999998" green="0.3902459741" blue="0.55296206469999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.75294119120000003" green="0.68235301969999995" blue="0.63921570780000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="quotesButton:" destination="KJf-07-tIn" eventType="touchUpInside" id="trh-Oj-mPX"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&lt; your daily quote &gt;" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g3x-Jk-anP">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g3x-Jk-anP">
                                 <rect key="frame" x="42" y="663" width="330" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.34729248289999998" green="0.3902459741" blue="0.55296206469999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" red="0.75294119120000003" green="0.68235301969999995" blue="0.63921570780000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Avenir-MediumOblique" family="Avenir" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="7uz-Yq-725"/>
-                        <color key="backgroundColor" systemColor="systemYellowColor"/>
+                        <color key="backgroundColor" red="0.94117647410000005" green="0.90196073060000004" blue="0.86274516580000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="xbw-ZB-l31"/>
                     <connections>
@@ -138,7 +138,7 @@
             </objects>
             <point key="canvasLocation" x="-2899" y="108"/>
         </scene>
-        <!--Journal View Controller-->
+        <!--Journal Prompts-->
         <scene sceneID="DQn-rJ-kM5">
             <objects>
                 <viewController id="IRa-zV-JiV" customClass="JournalViewController" customModule="POM" customModuleProvider="target" sceneMemberID="viewController">
@@ -146,10 +146,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&lt; a life prompt &gt;" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ulc-jQ-i6Q">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="a life prompt" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ulc-jQ-i6Q">
                                 <rect key="frame" x="45" y="88" width="325" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Avenir-MediumOblique" family="Avenir" pointSize="18"/>
+                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -160,7 +160,7 @@
                                 <buttonConfiguration key="configuration" style="filled" title="generate prompt">
                                     <fontDescription key="titleFontDescription" name="HiraMinProN-W6" family="Hiragino Mincho ProN" pointSize="15"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" red="0.48484832639999997" green="0.58648990889999997" blue="0.4498163208" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.75294119120000003" green="0.68235301969999995" blue="0.63921570780000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="lifePromptsButton:" destination="IRa-zV-JiV" eventType="touchUpInside" id="BQa-uT-dWh"/>
@@ -169,7 +169,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&lt; a miscellaneous prompt &gt;" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N7K-iK-jle">
                                 <rect key="frame" x="45" y="496" width="325" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Avenir-MediumOblique" family="Avenir" pointSize="18"/>
+                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -180,7 +180,7 @@
                                 <buttonConfiguration key="configuration" style="filled" title="generate prompt">
                                     <fontDescription key="titleFontDescription" name="HiraMinProN-W6" family="Hiragino Mincho ProN" pointSize="15"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" red="0.48484832639999997" green="0.58648990889999997" blue="0.4498163208" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.75294119120000003" green="0.68235301969999995" blue="0.63921570780000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="miscPromptsButton:" destination="IRa-zV-JiV" eventType="touchUpInside" id="C1T-VG-lFV"/>
@@ -189,7 +189,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&lt; a serious prompt &gt;" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EWc-qJ-CR1">
                                 <rect key="frame" x="45" y="296" width="325" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Avenir-MediumOblique" family="Avenir" pointSize="18"/>
+                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -200,7 +200,7 @@
                                 <buttonConfiguration key="configuration" style="filled" title="generate prompt">
                                     <fontDescription key="titleFontDescription" name="HiraMinProN-W6" family="Hiragino Mincho ProN" pointSize="15"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" red="0.48484832639999997" green="0.58648990889999997" blue="0.4498163208" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.75294119120000003" green="0.68235301969999995" blue="0.63921570780000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="seriousPromptsButton:" destination="IRa-zV-JiV" eventType="touchUpInside" id="emP-Uk-Rok"/>
@@ -208,9 +208,17 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="wCz-fI-kx9"/>
-                        <color key="backgroundColor" red="0.65769622989999998" green="0.79557292660000001" blue="0.61017535219999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.94117647410000005" green="0.90196073060000004" blue="0.86274516580000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
-                    <navigationItem key="navigationItem" id="XcJ-HD-nLT"/>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Journal Prompts" id="XcJ-HD-nLT">
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="icons8-right-arrow-48" id="sY7-GJ-yi1">
+                            <connections>
+                                <segue destination="Nqr-go-KSz" kind="show" id="FCd-AI-H9N"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="lifePromptLabel" destination="ulc-jQ-i6Q" id="efp-Ff-9DL"/>
                         <outlet property="miscPromptLabel" destination="N7K-iK-jle" id="Le8-bN-1Bb"/>
@@ -253,6 +261,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UVi-AF-v0S" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-3933" y="1535"/>
+        </scene>
+        <!--Journal Notes Controller-->
+        <scene sceneID="er1-ny-hhx">
+            <objects>
+                <viewController id="Nqr-go-KSz" customClass="JournalNotesController" customModule="POM" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="v2b-MF-dxR">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="X3r-Ia-kTy"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="awC-Lj-qqS"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Agq-G9-b53" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2900" y="1497"/>
         </scene>
         <!--Piece View Controller-->
         <scene sceneID="tLq-eM-Itj">
@@ -850,11 +874,12 @@
     <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
     <resources>
         <image name="home-icon" width="30" height="30"/>
+        <image name="icons8-right-arrow-48" width="48" height="48"/>
         <image name="journal-icon" width="30" height="30"/>
         <image name="piece-icon" width="30" height="30"/>
         <image name="todo-list-icon" width="30" height="30"/>
-        <systemColor name="systemYellowColor">
-            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
     </resources>
 </document>
