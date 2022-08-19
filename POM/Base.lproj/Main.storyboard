@@ -239,7 +239,7 @@
                     </view>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Journal Prompts" id="XcJ-HD-nLT">
-                        <barButtonItem key="rightBarButtonItem" title="Item" image="icons8-right-arrow-48" id="sY7-GJ-yi1">
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="arrow.right" catalog="system" id="sY7-GJ-yi1">
                             <connections>
                                 <segue destination="Nqr-go-KSz" kind="show" id="FCd-AI-H9N"/>
                             </connections>
@@ -1237,7 +1237,6 @@
     <resources>
         <image name="arrow.right" catalog="system" width="128" height="98"/>
         <image name="home-icon" width="30" height="30"/>
-        <image name="icons8-right-arrow-48" width="48" height="48"/>
         <image name="journal-icon" width="30" height="30"/>
         <image name="music.quarternote.3" catalog="system" width="128" height="103"/>
         <image name="piece-icon" width="30" height="30"/>
