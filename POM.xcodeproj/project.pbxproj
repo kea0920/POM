@@ -16,6 +16,7 @@
 		2E29B07328AF4F6C00F1B2BF /* QuizQ6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E29B07228AF4F6C00F1B2BF /* QuizQ6ViewController.swift */; };
 		2E29B07528AF4F7900F1B2BF /* QuizQ7ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E29B07428AF4F7900F1B2BF /* QuizQ7ViewController.swift */; };
 		2EAEE25628AFBE2400A5FB24 /* JournalNotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAEE25528AFBE2400A5FB24 /* JournalNotesViewController.swift */; };
+		2EAEE25828AFC9BC00A5FB24 /* RelaxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAEE25728AFC9BC00A5FB24 /* RelaxViewController.swift */; };
 		2EB270B828AC193C00E2BA12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB270B728AC193C00E2BA12 /* AppDelegate.swift */; };
 		2EB270BA28AC193C00E2BA12 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB270B928AC193C00E2BA12 /* SceneDelegate.swift */; };
 		2EB270BF28AC193C00E2BA12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EB270BD28AC193C00E2BA12 /* Main.storyboard */; };
@@ -41,6 +42,7 @@
 		2E29B07228AF4F6C00F1B2BF /* QuizQ6ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizQ6ViewController.swift; sourceTree = "<group>"; };
 		2E29B07428AF4F7900F1B2BF /* QuizQ7ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizQ7ViewController.swift; sourceTree = "<group>"; };
 		2EAEE25528AFBE2400A5FB24 /* JournalNotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalNotesViewController.swift; sourceTree = "<group>"; };
+		2EAEE25728AFC9BC00A5FB24 /* RelaxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelaxViewController.swift; sourceTree = "<group>"; };
 		2EB270B428AC193C00E2BA12 /* POM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = POM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EB270B728AC193C00E2BA12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2EB270B928AC193C00E2BA12 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				2EB270B928AC193C00E2BA12 /* SceneDelegate.swift */,
 				2EB270DE28AE84D300E2BA12 /* TabBarViewController.swift */,
 				2EB270E428AE87F400E2BA12 /* HomeViewController.swift */,
+				2EAEE25728AFC9BC00A5FB24 /* RelaxViewController.swift */,
 				2EB270E228AE859D00E2BA12 /* JournalViewController.swift */,
 				2EAEE25528AFBE2400A5FB24 /* JournalNotesViewController.swift */,
 				2EB270E028AE858000E2BA12 /* PieceViewController.swift */,
@@ -217,6 +220,7 @@
 				2E29B07528AF4F7900F1B2BF /* QuizQ7ViewController.swift in Sources */,
 				2E29B06928AF4F2B00F1B2BF /* QuizQ1ViewController.swift in Sources */,
 				2E29B06728AF4F1C00F1B2BF /* QuizResultViewController.swift in Sources */,
+				2EAEE25828AFC9BC00A5FB24 /* RelaxViewController.swift in Sources */,
 				2E29B07328AF4F6C00F1B2BF /* QuizQ6ViewController.swift in Sources */,
 				2EB270E328AE859D00E2BA12 /* JournalViewController.swift in Sources */,
 				2EB270E528AE87F400E2BA12 /* HomeViewController.swift in Sources */,
