@@ -25,11 +25,34 @@ class ToDoViewController: UIViewController, UITableViewDelegate, UITableViewData
         super.viewDidLoad()
        title = "To Do list"
         view.addSubview(tableView)
+        getAllItems()
         tableView.delegate = self
         tableView.dataSource = self
         tableView.frame = view.bounds
+       
+        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add,
+                                                            target: self,
+                                                            action: #selector(didTapAdd))
+    }
+    
+    @objc private func didTapAdd() {
+        let alert = UIAlertController(title: "New Item",
+                                      message: "Enter new Item",
+                                      preferredStyle: .alert)
+   
+        alert.addTextField(configurationHandler: nil)
+        alert.addAction(UIAlertAction(title: "Submit", style: .cancel, handler: { [weak self]_ in
+            guard let field = alert.textFields?.first, let text = field.text, !text.isEmpty else {
+                return
+            }
         
-}
+            self?.createItem(name: text)
+            
+        }))
+      
+        present(alert, animated: true)
+    
+    }
  
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return models.count
@@ -40,7 +63,7 @@ class ToDoViewController: UIViewController, UITableViewDelegate, UITableViewData
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         cell.textLabel?.text = model.name
         return cell
-    }
+}
 //Core Data
     
 func getAllItems() {
@@ -62,6 +85,7 @@ func getAllItems() {
         newItem.createAt = Date()
         do {
             try context.save()
+         getAllItems()
         }
         catch {
             
