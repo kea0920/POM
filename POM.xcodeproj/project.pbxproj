@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E29B06728AF4F1C00F1B2BF /* QuizResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E29B06628AF4F1C00F1B2BF /* QuizResultViewController.swift */; };
+		2E29B06928AF4F2B00F1B2BF /* QuizQ1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E29B06828AF4F2B00F1B2BF /* QuizQ1ViewController.swift */; };
+		2E29B06B28AF4F3B00F1B2BF /* QuizQ2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E29B06A28AF4F3B00F1B2BF /* QuizQ2ViewController.swift */; };
+		2E29B06D28AF4F4400F1B2BF /* QuizQ3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E29B06C28AF4F4400F1B2BF /* QuizQ3ViewController.swift */; };
+		2E29B06F28AF4F5600F1B2BF /* QuizQ4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E29B06E28AF4F5600F1B2BF /* QuizQ4ViewController.swift */; };
+		2E29B07128AF4F6300F1B2BF /* QuizQ5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E29B07028AF4F6300F1B2BF /* QuizQ5ViewController.swift */; };
+		2E29B07328AF4F6C00F1B2BF /* QuizQ6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E29B07228AF4F6C00F1B2BF /* QuizQ6ViewController.swift */; };
+		2E29B07528AF4F7900F1B2BF /* QuizQ7ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E29B07428AF4F7900F1B2BF /* QuizQ7ViewController.swift */; };
 		2EB270B828AC193C00E2BA12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB270B728AC193C00E2BA12 /* AppDelegate.swift */; };
 		2EB270BA28AC193C00E2BA12 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB270B928AC193C00E2BA12 /* SceneDelegate.swift */; };
 		2EB270BF28AC193C00E2BA12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EB270BD28AC193C00E2BA12 /* Main.storyboard */; };
@@ -23,6 +31,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E29B06628AF4F1C00F1B2BF /* QuizResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizResultViewController.swift; sourceTree = "<group>"; };
+		2E29B06828AF4F2B00F1B2BF /* QuizQ1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizQ1ViewController.swift; sourceTree = "<group>"; };
+		2E29B06A28AF4F3B00F1B2BF /* QuizQ2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizQ2ViewController.swift; sourceTree = "<group>"; };
+		2E29B06C28AF4F4400F1B2BF /* QuizQ3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizQ3ViewController.swift; sourceTree = "<group>"; };
+		2E29B06E28AF4F5600F1B2BF /* QuizQ4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizQ4ViewController.swift; sourceTree = "<group>"; };
+		2E29B07028AF4F6300F1B2BF /* QuizQ5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizQ5ViewController.swift; sourceTree = "<group>"; };
+		2E29B07228AF4F6C00F1B2BF /* QuizQ6ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizQ6ViewController.swift; sourceTree = "<group>"; };
+		2E29B07428AF4F7900F1B2BF /* QuizQ7ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizQ7ViewController.swift; sourceTree = "<group>"; };
 		2EB270B428AC193C00E2BA12 /* POM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = POM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EB270B728AC193C00E2BA12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2EB270B928AC193C00E2BA12 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +67,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E29B06528AF4EEF00F1B2BF /* PieceQuiz */ = {
+			isa = PBXGroup;
+			children = (
+				2E29B06628AF4F1C00F1B2BF /* QuizResultViewController.swift */,
+				2E29B06828AF4F2B00F1B2BF /* QuizQ1ViewController.swift */,
+				2E29B06A28AF4F3B00F1B2BF /* QuizQ2ViewController.swift */,
+				2E29B06C28AF4F4400F1B2BF /* QuizQ3ViewController.swift */,
+				2E29B06E28AF4F5600F1B2BF /* QuizQ4ViewController.swift */,
+				2E29B07028AF4F6300F1B2BF /* QuizQ5ViewController.swift */,
+				2E29B07228AF4F6C00F1B2BF /* QuizQ6ViewController.swift */,
+				2E29B07428AF4F7900F1B2BF /* QuizQ7ViewController.swift */,
+			);
+			path = PieceQuiz;
+			sourceTree = "<group>";
+		};
 		2EB270AB28AC193C00E2BA12 = {
 			isa = PBXGroup;
 			children = (
@@ -70,6 +101,7 @@
 		2EB270B628AC193C00E2BA12 /* POM */ = {
 			isa = PBXGroup;
 			children = (
+				2E29B06528AF4EEF00F1B2BF /* PieceQuiz */,
 				BD4958CE28AED2CB008D7FF0 /* ToDoListItem */,
 				2EB270B728AC193C00E2BA12 /* AppDelegate.swift */,
 				2EB270B928AC193C00E2BA12 /* SceneDelegate.swift */,
@@ -170,10 +202,18 @@
 				2EB270E728AED68E00E2BA12 /* ToDoViewController.swift in Sources */,
 				BD4958CC28AED254008D7FF0 /* ToDoListItem+CoreDataClass.swift in Sources */,
 				BD4958CD28AED254008D7FF0 /* ToDoListItem+CoreDataProperties.swift in Sources */,
+				2E29B07128AF4F6300F1B2BF /* QuizQ5ViewController.swift in Sources */,
 				2EB270DF28AE84D300E2BA12 /* TabBarViewController.swift in Sources */,
 				2EB270C228AC193C00E2BA12 /* POM.xcdatamodeld in Sources */,
+				2E29B06D28AF4F4400F1B2BF /* QuizQ3ViewController.swift in Sources */,
 				2EB270B828AC193C00E2BA12 /* AppDelegate.swift in Sources */,
 				2EB270BA28AC193C00E2BA12 /* SceneDelegate.swift in Sources */,
+				2E29B06B28AF4F3B00F1B2BF /* QuizQ2ViewController.swift in Sources */,
+				2E29B06F28AF4F5600F1B2BF /* QuizQ4ViewController.swift in Sources */,
+				2E29B07528AF4F7900F1B2BF /* QuizQ7ViewController.swift in Sources */,
+				2E29B06928AF4F2B00F1B2BF /* QuizQ1ViewController.swift in Sources */,
+				2E29B06728AF4F1C00F1B2BF /* QuizResultViewController.swift in Sources */,
+				2E29B07328AF4F6C00F1B2BF /* QuizQ6ViewController.swift in Sources */,
 				2EB270E328AE859D00E2BA12 /* JournalViewController.swift in Sources */,
 				2EB270E528AE87F400E2BA12 /* HomeViewController.swift in Sources */,
 				2EB270E128AE858000E2BA12 /* PieceViewController.swift in Sources */,
