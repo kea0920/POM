@@ -8,7 +8,10 @@
 import UIKit
 
 class QuizResultViewController: UIViewController {
-
+    
+    static let result = QuizResultViewController()
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
