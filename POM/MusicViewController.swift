@@ -7,7 +7,7 @@
 
 import UIKit
 
-class RelaxViewController: UIViewController {
+class MusicViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
