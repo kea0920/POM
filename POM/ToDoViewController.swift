@@ -94,7 +94,7 @@ class ToDoViewController: UIViewController, UITableViewDelegate, UITableViewData
             self.present(alert, animated: true)
         
       }))
-        sheet.addAction(UIAlertAction(title: "Delete", style: .destructive, handler: { [weak self]_ in
+        sheet.addAction(UIAlertAction(title: "Mark As Complete", style: .destructive, handler: { [weak self]_ in
             self?.deleteItem(item: item)
         }))
       
