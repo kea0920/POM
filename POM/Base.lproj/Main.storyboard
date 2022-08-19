@@ -384,7 +384,7 @@
                                 <rect key="frame" x="39" y="633" width="150" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" image="music.quarternote.3" catalog="system">
+                                <buttonConfiguration key="configuration" style="filled" image="rainy_tokyo_50">
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="baseBackgroundColor" red="0.89334386590000003" green="0.84763836859999997" blue="0.78430253270000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
@@ -1379,7 +1379,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="rK8-5f-ibd"/>
         <segue reference="1el-9f-pS2"/>
         <segue reference="Msm-uJ-c4h"/>
         <segue reference="lS2-51-049"/>
@@ -1397,6 +1396,7 @@
         <image name="journal-icon" width="30" height="30"/>
         <image name="music.quarternote.3" catalog="system" width="128" height="103"/>
         <image name="piece-icon" width="30" height="30"/>
+        <image name="rainy_tokyo_50" width="150" height="150"/>
         <image name="todo-list-icon" width="30" height="30"/>
     </resources>
 </document>
